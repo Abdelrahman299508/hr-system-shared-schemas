@@ -1,0 +1,30 @@
+{
+  "name": "@hr-system/shared-schemas",
+  "version": "1.0.0",
+  "description": "Shared database schemas for HR Management System - used across all subsystems",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "hr-system",
+    "schemas",
+    "mongoose",
+    "nestjs",
+    "shared"
+  ],
+  "author": "HR System Team - GIU",
+  "license": "ISC",
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/mongoose": "^10.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+
